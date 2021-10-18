@@ -1,10 +1,9 @@
 {
-  "name": "discord-auto-threader",
+  "name": "@4lch4/discord-threader",
   "version": "1.0.0",
   "description": "A discord bot that makes a new thread for every message in certain channels.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "prestart": "npm run build",
     "start": "node ./dist/index.js",
@@ -12,9 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MarcusOtter/discord-auto-threader.git"
+    "url": "git+https://github.com/4lch4/discord-auto-threader.git"
   },
-  "author": "Marcus Otterström",
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://alcha.org"
+  },
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/MarcusOtter/discord-auto-threader/issues"
